@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Yousef Basem, an Intelligent Systems and Electronics Engineering student focused on embedded systems, IoT, machine learning, and connected hardware." />
+  <meta property="og:title" content="Yousef Basem | Intelligent Systems Engineer" />
+  <meta property="og:description" content="Embedded systems, IoT, ML, and hardware-software integration." />
+  <meta property="og:type" content="website" />
+  <title>Yousef Basem | Intelligent Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-loading">
+
+  <!-- Page loader -->
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="loader-inner">
+      <span class="loader-logo">YB<em>_SYS</em></span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <div id="progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-logo" href="#home" aria-label="Yousef Basem home">YB<span>_SYS</span></a>
+
+      <div class="nav-links" id="primary-menu">
+        <a href="#home"       class="nav-link" data-section="home">Home</a>
+        <a href="#about"      class="nav-link" data-section="about">About</a>
+        <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+        <a href="#projects"   class="nav-link" data-section="projects">Projects</a>
+        <a href="#skills"     class="nav-link" data-section="skills">Skills</a>
+        <a href="#courses"    class="nav-link" data-section="courses">Courses</a>
+        <a href="#contact"    class="nav-link" data-section="contact">Contact</a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span>Available for Opportunities</p>
+        <h1>Yousef <span>Basem.</span></h1>
+        <p class="hero-title">
+          <span id="typed-text"></span><span class="typed-cursor" aria-hidden="true"></span>
+        </p>
+        <p class="hero-copy">
+          Engineering intelligent, embedded, and connected systems. Passionate about IoT, signal processing, ML, and building solutions that bridge hardware and software.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in Touch</a>
+          <a class="btn btn-secondary" href="#projects">View Projects</a>
+        </div>
+
+        <div class="social-links" aria-label="Social and contact links">
+          <a href="mailto:basemyousef827@gmail.com" aria-label="Email Yousef"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+201117551565" aria-label="Call Yousef"><i class="fa-solid fa-phone"></i></a>
+          <!-- TODO: Replace # with your LinkedIn URL -->
+          <a href="#" aria-label="LinkedIn profile" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+          <!-- TODO: Replace # with your GitHub URL -->
+          <a href="#" aria-label="GitHub profile" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Profile summary">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+          <span class="terminal-title">profile.sh</span>
+        </div>
+        <div class="terminal-lines">
+          <p class="terminal-cmd"><span class="t-prompt">$</span> <em>cat</em> profile.txt</p>
+          <p class="terminal-output"><span>status</span>   <strong>online</strong></p>
+          <p class="terminal-output"><span>focus</span>    <strong>embedded systems</strong></p>
+          <p class="terminal-output"><span>stack</span>    <strong>C / C++ / Python / ML</strong></p>
+          <p class="terminal-output"><span>location</span> <strong>Cairo, Egypt</strong></p>
+          <p class="terminal-output"><span>uni</span>      <strong>HNU &mdash; 2022&ndash;now</strong></p>
+          <p class="terminal-output"><span>open_to</span>  <strong>internships</strong></p>
+          <p class="terminal-prompt"><span class="t-prompt">$</span> <span class="terminal-blink">&#x258C;</span></p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-alt reveal" id="about">
+      <div class="section-header">
+        <p class="section-label">Profile</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="profile-card">
+          <div class="profile-row"><span>Name</span>      <strong>Yousef Basem Eldesouky</strong></div>
+          <div class="profile-row"><span>Degree</span>    <strong>Intelligent Systems &amp; Electronics Engineering</strong></div>
+          <div class="profile-row"><span>University</span><strong>Helwan National University (2022 &ndash; Present)</strong></div>
+          <div class="profile-row"><span>Location</span>  <strong>Cairo, Egypt</strong></div>
+          <div class="profile-row"><span>Email</span>     <strong>basemyousef827@gmail.com</strong></div>
+          <div class="profile-row"><span>Phone</span>     <strong>(+20) 1117551565</strong></div>
+          <div class="profile-row"><span>Languages</span> <strong>Arabic (Native) &middot; English (Fluent) &middot; German (Beginner)</strong></div>
+        </div>
+
+        <div class="about-copy">
+          <h3>Building Intelligent Systems</h3>
+          <p>
+            I'm a highly motivated Intelligent Systems Engineering student with hands-on experience developing innovative solutions across IoT, digital signal processing, and embedded systems.
+          </p>
+          <p>
+            Proficient in low-level hardware programming with C/C++ and ATmega microcontrollers, as well as modern software development with Python, machine learning, and web technologies.
+          </p>
+          <p>
+            Seeking to apply and expand my expertise in software engineering and automation to drive progress in telecommunications and embedded technologies.
+          </p>
+          <div class="about-badges">
+            <div class="about-badge"><i class="fa-solid fa-microchip"></i><span>Embedded</span></div>
+            <div class="about-badge"><i class="fa-solid fa-wifi"></i><span>IoT</span></div>
+            <div class="about-badge"><i class="fa-solid fa-brain"></i><span>ML / AI</span></div>
+            <div class="about-badge"><i class="fa-solid fa-code"></i><span>Web Dev</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section reveal" id="experience">
+      <div class="section-header">
+        <p class="section-label">Career</p>
+        <h2>Internships &amp; Training</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item stagger-child">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-heading">
+              <h3>Machine Learning Intern</h3>
+              <span>Training</span>
+            </div>
+            <p class="timeline-org"><i class="fa-solid fa-building"></i> Impact &mdash; Zewail University</p>
+            <ul>
+              <li>Hands-on ML training at one of Egypt&rsquo;s leading research institutions.</li>
+              <li>Applied supervised and unsupervised learning algorithms to real-world datasets.</li>
+              <li>Developed a foundation in model evaluation, feature engineering, and data pipelines.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item stagger-child">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-heading">
+              <h3>Huawei HCIA-AI V4.0 Certification Training</h3>
+              <span>Certification</span>
+            </div>
+            <p class="timeline-org"><i class="fa-solid fa-certificate"></i> NTI / Huawei Egyptian Talent Academy</p>
+            <ul>
+              <li>Completed official Huawei AI certification training covering deep learning fundamentals.</li>
+              <li>Studied neural network architectures, AI frameworks, and model deployment.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item stagger-child">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-heading">
+              <h3>IoT Summer Training</h3>
+              <span>Summer Program</span>
+            </div>
+            <p class="timeline-org"><i class="fa-solid fa-satellite-dish"></i> NTI &mdash; National Telecommunication Institute</p>
+            <ul>
+              <li>Designed and built connected IoT systems integrating sensors and microcontrollers.</li>
+              <li>Explored wireless communication protocols and cloud connectivity for embedded devices.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item stagger-child">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-heading">
+              <h3>IT Intern</h3>
+              <span>Internship</span>
+            </div>
+            <p class="timeline-org"><i class="fa-solid fa-industry"></i> Petrojet</p>
+            <ul>
+              <li>Gained enterprise IT exposure within one of Egypt&rsquo;s major oil and gas companies.</li>
+              <li>Supported infrastructure, networking, and internal system operations.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt reveal" id="projects">
+      <div class="section-header">
+        <p class="section-label">Work</p>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card stagger-child">
+          <div class="project-icon"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i></div>
+          <h3>Binary Search Tree with GUI</h3>
+          <p>
+            A graphical application for visualizing and interacting with a Binary Search Tree. Supports insertion, deletion, search, and all three traversal orders (in-order, pre-order, post-order) with real-time visual updates.
+          </p>
+          <div class="tag-list">
+            <span>Data Structures</span>
+            <span>GUI</span>
+            <span>Visualization</span>
+            <span>Algorithms</span>
+          </div>
+        </article>
+
+        <article class="project-card stagger-child">
+          <div class="project-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+          <h3>The Safe &mdash; Smart Embedded System</h3>
+          <p>
+            Designed and implemented a Smart Safe using the ATmega32 microcontroller. Integrated multiple hardware components for secure, user-friendly access control using embedded C.
+          </p>
+          <div class="tag-list">
+            <span>ATmega32</span>
+            <span>Embedded C</span>
+            <span>Hardware</span>
+            <span>IoT</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section reveal" id="skills">
+      <div class="section-header">
+        <p class="section-label">Capabilities</p>
+        <h2>Technical Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-group stagger-child">
+          <h3><i class="fa-solid fa-terminal"></i> Programming Languages</h3>
+          <div class="chip-list">
+            <span>C</span><span>C++</span><span>Python</span>
+            <span>Java</span><span>SQL</span><span>HTML</span><span>CSS</span>
+          </div>
+        </article>
+
+        <article class="skill-group stagger-child">
+          <h3><i class="fa-solid fa-microchip"></i> Domains &amp; Technologies</h3>
+          <div class="chip-list">
+            <span>Embedded Systems</span><span>IoT</span>
+            <span>Machine Learning</span><span>Digital Signal Processing</span>
+            <span>ATmega Microcontrollers</span><span>Web Development</span>
+            <span>Networks</span><span>Automation</span>
+          </div>
+        </article>
+
+        <article class="skill-group stagger-child">
+          <h3><i class="fa-solid fa-users"></i> Soft Skills</h3>
+          <div class="chip-list">
+            <span>Team Collaboration</span><span>Work Under Pressure</span>
+            <span>Communication</span><span>Active Listening</span>
+          </div>
+        </article>
+
+        <article class="skill-group stagger-child">
+          <h3><i class="fa-solid fa-language"></i> Spoken Languages</h3>
+          <div class="chip-list">
+            <span>Arabic &mdash; Native</span>
+            <span>English &mdash; Fluent</span>
+            <span>German &mdash; Beginner</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- COURSES -->
+    <section class="section section-alt reveal" id="courses">
+      <div class="section-header">
+        <p class="section-label">Education</p>
+        <h2>Courses &amp; Certifications</h2>
+      </div>
+
+      <div class="courses-grid">
+        <article class="course-card stagger-child">
+          <div class="course-icon"><i class="fa-solid fa-globe"></i></div>
+          <div class="course-body">
+            <h3>Web Development</h3>
+            <p>Full-stack fundamentals covering HTML, CSS, JavaScript, and back-end integration patterns.</p>
+            <span class="course-provider"><i class="fa-solid fa-graduation-cap"></i> Udemy</span>
+          </div>
+        </article>
+
+        <article class="course-card stagger-child">
+          <div class="course-icon"><i class="fa-solid fa-gears"></i></div>
+          <div class="course-body">
+            <h3>Automation</h3>
+            <p>Industrial control systems, scripting, and process automation concepts and implementation.</p>
+            <span class="course-provider"><i class="fa-solid fa-graduation-cap"></i> Pixels</span>
+          </div>
+        </article>
+
+        <article class="course-card stagger-child">
+          <div class="course-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <div class="course-body">
+            <h3>Networks</h3>
+            <p>Core networking protocols, topologies, communication systems, and network architecture design.</p>
+            <span class="course-provider"><i class="fa-solid fa-graduation-cap"></i> Pixels</span>
+          </div>
+        </article>
+
+        <article class="course-card stagger-child">
+          <div class="course-icon"><i class="fa-solid fa-microchip"></i></div>
+          <div class="course-body">
+            <h3>Embedded Systems</h3>
+            <p>Microcontroller programming, peripheral interfacing, and real-time system design principles.</p>
+            <span class="course-provider"><i class="fa-solid fa-graduation-cap"></i> Self-directed</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section reveal" id="contact">
+      <div class="section-header">
+        <p class="section-label">Reach Out</p>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-inner">
+        <p>Open to internships, collaborations, and full-time opportunities in intelligent systems, embedded engineering, and machine learning.</p>
+        <div class="contact-links">
+          <a href="mailto:basemyousef827@gmail.com"><i class="fa-solid fa-envelope"></i>basemyousef827@gmail.com</a>
+          <a href="mailto:basemyousef518@gmail.com"><i class="fa-solid fa-envelope"></i>basemyousef518@gmail.com</a>
+          <a href="tel:+201117551565"><i class="fa-solid fa-phone"></i>(+20) 1117551565</a>
+          <span><i class="fa-solid fa-location-dot"></i>Cairo, Egypt</span>
+        </div>
+        <a class="btn btn-primary" href="mailto:basemyousef827@gmail.com">Send a Message</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Yousef Basem Eldesouky &mdash; Intelligent Systems Engineer</p>
+    <div class="footer-socials">
+      <a href="mailto:basemyousef827@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" aria-label="GitHub" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
