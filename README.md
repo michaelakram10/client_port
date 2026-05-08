@@ -208,4 +208,4 @@ then right-click `index.html` → **Open with Live Server**.
 ## 📄 License
 
 Feel free to use, modify, and share this portfolio template.
-Built and designed by Yousef Basem Eldesouky."# client_port" 
+Built and designed for Yousef Basem Eldesouky."# client_port" 
